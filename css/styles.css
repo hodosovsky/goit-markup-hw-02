@@ -1,56 +1,181 @@
 
-ul { list-style: none; }
+/* основной текст #757575; */
+/* вторичны цвет #212121; */
+/* цвет ховера #2196F3; */
+/* основной цвет фона #E5E5E5 */
+/* вторичный цвет фона #F5F4FA */
+/* цвет фона header #FFFFFF; */
+/* цвет фона 1 секц #2F303A */
 
-a {
+
+.list { list-style: none; }
+
+.link {
   text-decoration: none;
 }
 
+body{
+  font-family: Roboto, sans-serif ;
+  background-color: #E5E5E5;
+  color: #757575;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+ }
 
+.head{
+  background-color: #FFFFFF;
+}
 
-.logoWeb{
-font-family: 'Raleway';
-font-style: normal;
+.logoWeb,
+.logoStudio,
+.footStudio{
+font-family: Raleway, sans-serif;
 font-weight: 700;
 font-size: 26px;
-line-height: 31px;
-letter-spacing: 0.03em;
 color: #2196F3;
 }
 
 .logoStudio{
-  font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 31px;
-letter-spacing: 0.03em;
 color: #000000;
 }
 
 
 
-.headLinks li a{
-font-family: 'Roboto';
-font-style: normal;
+.siteHead .name,
+.siteHead .info{
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
+line-height: 1.14;
+letter-spacing: 2%;
 color:#212121;
 }
 
-.headLinks :hover,
-.headInfo :hover{
-  color:#2196F3;
-  
-}
-
-.headInfo li a{
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
+.headInfo .info {
 color: #757575;
 }
+
+
+.siteHead .name:hover,
+.siteHead .name:focus, 
+.headInfo .info:hover,
+.headInfo .info:focus {
+  color:#2196F3;
+}
+
+.siteHead .current{
+  color: #2196F3 ;
+}
+  
+
+.hero{
+  background-color: #000000;
+}
+
+.main-title{
+font-style: 900;
+font-size: 44px;
+line-height: 1.4;
+text-align: center;
+letter-spacing: 6%;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.myButton{
+font-family: inherit;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.9;
+cursor: pointer;
+text-align: center;
+letter-spacing: 6%;
+background: #2196F3;
+color: #FFFFFF;
+}
+
+.myButton:hover,
+.myButton:focus{
+background-color: #188CE8;
+}
+
+.section-title{
+font-size: 36px;
+text-align: center;
+color: #212121;
+}
+
+.exclusive .title{
+font-size: 14px;
+line-height: 1.1;
+text-transform: uppercase;
+color: #212121;
+}
+
+.exclusive .text{
+line-height: 1.7;
+}
+
+.persone{
+font-weight: 500;
+font-size: 16px;
+text-align: center;
+color: #212121;
+}
+
+.team-item{
+background-color: #F5F4FA;
+}
+
+.job{
+font-size: 16px;
+text-align: center;
+}
+
+.foot{
+background-color: #2F303A;
+}
+
+.contacts .adres,
+.contacts .info{
+font-size: 14px;
+line-height: 1.7;
+color: #FFFFFF;
+}
+
+.contacts .info{
+color: rgba(255, 255, 255, 0.6);
+}
+
+.footStudio{
+color: #FFFFFF;
+}
+
+.filtr{
+font-family: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.63;
+text-align: center;
+color: #212121;
+}
+
+.filtr:hover{
+  color: #FFFFFF;
+  background-color:#2196F3 ;
+}
+
+.port-title{
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: #212121;
+}
+
+.group{
+font-size: 16px;
+line-height: 1.88;
+}
+
+
