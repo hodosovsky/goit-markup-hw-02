@@ -53,16 +53,9 @@ img {
   text-decoration: none;
 }
 
-h1,
-h2,
-h3 {
-  color: var(--title-color);
-}
-
 /* логотип */
 .logo {
   font-family: 'Raleway', sans-serif;
-
   font-weight: 700;
   font-size: 26px;
   color: var(--logo-web-color);
@@ -92,7 +85,8 @@ h3 {
   color: var(--main-text-color);
 }
 
-.contacts:hover {
+.contacts:hover,
+.contacts:focus {
   color: var(--hover-color);
 }
 
@@ -124,7 +118,8 @@ h3 {
   background-color: var(--button-bcg);
 }
 
-.hero .button:hover {
+.hero .button:hover,
+.hero .button:focus {
   background-color: var(--button-hover);
 }
 
@@ -142,6 +137,7 @@ h3 {
   margin: -1px;
 }
 .section .subtitle {
+  color: var(--title-color);
   font-weight: 700;
   font-size: 14px;
   text-transform: uppercase;
@@ -153,6 +149,7 @@ h3 {
 
 /* чим ми займаємось */
 .section .title {
+  color: var(--title-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -164,6 +161,7 @@ h3 {
   background-color: var(--team-bcg);
 }
 .team .person {
+  color: var(--title-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
@@ -192,6 +190,39 @@ h3 {
   color: var(--adress-text-color);
 }
 
-.foot-info:hover {
+.foot-info:hover,
+.foot-info:focus {
   color: var(--hover-color);
+}
+
+/* Портфоліо */
+/* кнопки фільтру */
+.filter {
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  color: var(--title-color);
+}
+
+.filter:hover,
+.filter:focus {
+  background-color: var(--hover-color);
+  color: var(--button-text-color);
+}
+
+.portfolio .title {
+  color: var(--title-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio .category {
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--main-text-color);
 }
