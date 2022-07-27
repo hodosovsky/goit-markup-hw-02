@@ -138,7 +138,6 @@ img {
 }
 .section .subtitle {
   color: var(--title-color);
-  font-weight: 700;
   font-size: 14px;
   text-transform: uppercase;
 }
@@ -150,7 +149,6 @@ img {
 /* чим ми займаємось */
 .section .title {
   color: var(--title-color);
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -215,7 +213,6 @@ img {
 
 .portfolio .title {
   color: var(--title-color);
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
